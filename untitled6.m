@@ -6,4 +6,4 @@ x = 3*sin(6*pi*t)+5*sin(16*pi*t);
   plot(t,x,'k-');                             %k- style of line
   hold on;                                    %hold this style
   plot(t(pks),x(pks),'k*');hold off;          % /-/ off this style to blue
-  xlabel(’time (s)’); ylabel(’x(t)’);         % names of ox and oy
+  xlabel('time (s)'); ylabel('x(t)');         % names of ox and oy
